@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52F11D3D293F7CC600DB0005 /* CareferApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F11D3C293F7CC600DB0005 /* CareferApp.swift */; };
+		52F11D3F293F7CC600DB0005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F11D3E293F7CC600DB0005 /* ContentView.swift */; };
+		52F11D41293F7CC700DB0005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F11D40293F7CC700DB0005 /* Assets.xcassets */; };
+		52F11D44293F7CC700DB0005 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F11D43293F7CC700DB0005 /* Preview Assets.xcassets */; };
+		52F11D4E293F7CC800DB0005 /* CareferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F11D4D293F7CC800DB0005 /* CareferTests.swift */; };
+		52F11D58293F7CC800DB0005 /* CareferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F11D57293F7CC800DB0005 /* CareferUITests.swift */; };
+		52F11D5A293F7CC800DB0005 /* CareferUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F11D59293F7CC800DB0005 /* CareferUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52F11D4A293F7CC700DB0005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52F11D31293F7CC500DB0005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52F11D38293F7CC600DB0005;
+			remoteInfo = Carefer;
+		};
+		52F11D54293F7CC800DB0005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52F11D31293F7CC500DB0005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52F11D38293F7CC600DB0005;
+			remoteInfo = Carefer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52F11D39293F7CC600DB0005 /* Carefer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carefer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F11D3C293F7CC600DB0005 /* CareferApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareferApp.swift; sourceTree = "<group>"; };
+		52F11D3E293F7CC600DB0005 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52F11D40293F7CC700DB0005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52F11D43293F7CC700DB0005 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52F11D49293F7CC700DB0005 /* CareferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F11D4D293F7CC800DB0005 /* CareferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareferTests.swift; sourceTree = "<group>"; };
+		52F11D53293F7CC800DB0005 /* CareferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F11D57293F7CC800DB0005 /* CareferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareferUITests.swift; sourceTree = "<group>"; };
+		52F11D59293F7CC800DB0005 /* CareferUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareferUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52F11D36293F7CC600DB0005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F11D46293F7CC700DB0005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F11D50293F7CC800DB0005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52F11D30293F7CC500DB0005 = {
+			isa = PBXGroup;
+			children = (
+				52F11D3B293F7CC600DB0005 /* Carefer */,
+				52F11D4C293F7CC800DB0005 /* CareferTests */,
+				52F11D56293F7CC800DB0005 /* CareferUITests */,
+				52F11D3A293F7CC600DB0005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52F11D3A293F7CC600DB0005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52F11D39293F7CC600DB0005 /* Carefer.app */,
+				52F11D49293F7CC700DB0005 /* CareferTests.xctest */,
+				52F11D53293F7CC800DB0005 /* CareferUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52F11D3B293F7CC600DB0005 /* Carefer */ = {
+			isa = PBXGroup;
+			children = (
+				52F11D3C293F7CC600DB0005 /* CareferApp.swift */,
+				52F11D3E293F7CC600DB0005 /* ContentView.swift */,
+				52F11D40293F7CC700DB0005 /* Assets.xcassets */,
+				52F11D42293F7CC700DB0005 /* Preview Content */,
+			);
+			path = Carefer;
+			sourceTree = "<group>";
+		};
+		52F11D42293F7CC700DB0005 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52F11D43293F7CC700DB0005 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52F11D4C293F7CC800DB0005 /* CareferTests */ = {
+			isa = PBXGroup;
+			children = (
+				52F11D4D293F7CC800DB0005 /* CareferTests.swift */,
+			);
+			path = CareferTests;
+			sourceTree = "<group>";
+		};
+		52F11D56293F7CC800DB0005 /* CareferUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52F11D57293F7CC800DB0005 /* CareferUITests.swift */,
+				52F11D59293F7CC800DB0005 /* CareferUITestsLaunchTests.swift */,
+			);
+			path = CareferUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52F11D38293F7CC600DB0005 /* Carefer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F11D5D293F7CC800DB0005 /* Build configuration list for PBXNativeTarget "Carefer" */;
+			buildPhases = (
+				52F11D35293F7CC600DB0005 /* Sources */,
+				52F11D36293F7CC600DB0005 /* Frameworks */,
+				52F11D37293F7CC600DB0005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carefer;
+			productName = Carefer;
+			productReference = 52F11D39293F7CC600DB0005 /* Carefer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52F11D48293F7CC700DB0005 /* CareferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F11D60293F7CC800DB0005 /* Build configuration list for PBXNativeTarget "CareferTests" */;
+			buildPhases = (
+				52F11D45293F7CC700DB0005 /* Sources */,
+				52F11D46293F7CC700DB0005 /* Frameworks */,
+				52F11D47293F7CC700DB0005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52F11D4B293F7CC700DB0005 /* PBXTargetDependency */,
+			);
+			name = CareferTests;
+			productName = CareferTests;
+			productReference = 52F11D49293F7CC700DB0005 /* CareferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52F11D52293F7CC800DB0005 /* CareferUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F11D63293F7CC800DB0005 /* Build configuration list for PBXNativeTarget "CareferUITests" */;
+			buildPhases = (
+				52F11D4F293F7CC800DB0005 /* Sources */,
+				52F11D50293F7CC800DB0005 /* Frameworks */,
+				52F11D51293F7CC800DB0005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52F11D55293F7CC800DB0005 /* PBXTargetDependency */,
+			);
+			name = CareferUITests;
+			productName = CareferUITests;
+			productReference = 52F11D53293F7CC800DB0005 /* CareferUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52F11D31293F7CC500DB0005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					52F11D38293F7CC600DB0005 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					52F11D48293F7CC700DB0005 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 52F11D38293F7CC600DB0005;
+					};
+					52F11D52293F7CC800DB0005 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 52F11D38293F7CC600DB0005;
+					};
+				};
+			};
+			buildConfigurationList = 52F11D34293F7CC500DB0005 /* Build configuration list for PBXProject "Carefer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52F11D30293F7CC500DB0005;
+			productRefGroup = 52F11D3A293F7CC600DB0005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52F11D38293F7CC600DB0005 /* Carefer */,
+				52F11D48293F7CC700DB0005 /* CareferTests */,
+				52F11D52293F7CC800DB0005 /* CareferUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52F11D37293F7CC600DB0005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F11D44293F7CC700DB0005 /* Preview Assets.xcassets in Resources */,
+				52F11D41293F7CC700DB0005 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F11D47293F7CC700DB0005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F11D51293F7CC800DB0005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52F11D35293F7CC600DB0005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F11D3F293F7CC600DB0005 /* ContentView.swift in Sources */,
+				52F11D3D293F7CC600DB0005 /* CareferApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F11D45293F7CC700DB0005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F11D4E293F7CC800DB0005 /* CareferTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F11D4F293F7CC800DB0005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F11D58293F7CC800DB0005 /* CareferUITests.swift in Sources */,
+				52F11D5A293F7CC800DB0005 /* CareferUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52F11D4B293F7CC700DB0005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52F11D38293F7CC600DB0005 /* Carefer */;
+			targetProxy = 52F11D4A293F7CC700DB0005 /* PBXContainerItemProxy */;
+		};
+		52F11D55293F7CC800DB0005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52F11D38293F7CC600DB0005 /* Carefer */;
+			targetProxy = 52F11D54293F7CC800DB0005 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52F11D5B293F7CC800DB0005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52F11D5C293F7CC800DB0005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52F11D5E293F7CC800DB0005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Carefer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.task.Carefer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52F11D5F293F7CC800DB0005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Carefer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.task.Carefer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52F11D61293F7CC800DB0005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.task.CareferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carefer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Carefer";
+			};
+			name = Debug;
+		};
+		52F11D62293F7CC800DB0005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.task.CareferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carefer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Carefer";
+			};
+			name = Release;
+		};
+		52F11D64293F7CC800DB0005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.task.CareferUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Carefer;
+			};
+			name = Debug;
+		};
+		52F11D65293F7CC800DB0005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.task.CareferUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Carefer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52F11D34293F7CC500DB0005 /* Build configuration list for PBXProject "Carefer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F11D5B293F7CC800DB0005 /* Debug */,
+				52F11D5C293F7CC800DB0005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F11D5D293F7CC800DB0005 /* Build configuration list for PBXNativeTarget "Carefer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F11D5E293F7CC800DB0005 /* Debug */,
+				52F11D5F293F7CC800DB0005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F11D60293F7CC800DB0005 /* Build configuration list for PBXNativeTarget "CareferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F11D61293F7CC800DB0005 /* Debug */,
+				52F11D62293F7CC800DB0005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F11D63293F7CC800DB0005 /* Build configuration list for PBXNativeTarget "CareferUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F11D64293F7CC800DB0005 /* Debug */,
+				52F11D65293F7CC800DB0005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52F11D31293F7CC500DB0005 /* Project object */;
+}
