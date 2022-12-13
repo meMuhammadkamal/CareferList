@@ -24,9 +24,9 @@ import Combine
                 .matches
             if let matches = matches {
                let sortedMatches =  matches.sorted { match1, match2 in
-                    match1.utcDate?.convertToDate(format: .YEAR) ?? Date() > match2.utcDate?.convertToDate(format: .YEAR) ?? Date()
+                    match1.utcDate?.convertToDate(format: .YEAR) ?? Date() < match2.utcDate?.convertToDate(format: .YEAR) ?? Date()
                 }
-                self.groupedMatches = groupMatchesByDay(matches)
+                self.groupedMatches = groupMatchesByDay(sortedMatches)
             } else {
                 self.apiError = ErrorHandler.generateError(message: GENERIC_ERROR_MESSAGE, errorCode: GENERIC_ERROR_CODE)
             }
