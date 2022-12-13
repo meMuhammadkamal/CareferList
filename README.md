@@ -26,8 +26,8 @@ Native `Swift` language.
 ## Installation
 
 Navigate to the project root via the terminal and run the following command:
-0. `pod install` to install all framework dependencies described in _Podfile_.
-1. `open Carefer.xcworkspace` open Xcode workspace for development.
+ `pod install` to install all framework dependencies described in _Podfile_.
+ `open Carefer.xcworkspace` open Xcode workspace for development.
 
 ## Frameworks
 
