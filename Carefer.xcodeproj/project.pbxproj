@@ -47,7 +47,6 @@
 		52F11D89293F9C7900DB0005 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F11D88293F9C7900DB0005 /* ApiManager.swift */; };
 		52F11D8D293F9CFA00DB0005 /* ApiConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F11D8C293F9CFA00DB0005 /* ApiConst.swift */; };
 		52F11D8F293F9DA300DB0005 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F11D8E293F9DA300DB0005 /* ApiError.swift */; };
-		52F11D91293F9DF600DB0005 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F11D90293F9DF600DB0005 /* Reachability.swift */; };
 		52F11D94293FF9CE00DB0005 /* MatchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F11D93293FF9CE00DB0005 /* MatchesViewModel.swift */; };
 		52F11D96293FFD3100DB0005 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F11D95293FFD3100DB0005 /* ErrorHandler.swift */; };
 		FA63C286FD57AEDF85262482 /* Pods_Carefer_CareferUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9CCEFD15C051C553D16096 /* Pods_Carefer_CareferUITests.framework */; };
@@ -116,7 +115,6 @@
 		52F11D88293F9C7900DB0005 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		52F11D8C293F9CFA00DB0005 /* ApiConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConst.swift; sourceTree = "<group>"; };
 		52F11D8E293F9DA300DB0005 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
-		52F11D90293F9DF600DB0005 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		52F11D93293FF9CE00DB0005 /* MatchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewModel.swift; sourceTree = "<group>"; };
 		52F11D95293FFD3100DB0005 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		53E9D5DB26E5D236DD43C28A /* Pods_CareferTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CareferTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -294,7 +292,6 @@
 				52F11D88293F9C7900DB0005 /* ApiManager.swift */,
 				52F11D8C293F9CFA00DB0005 /* ApiConst.swift */,
 				52F11D8E293F9DA300DB0005 /* ApiError.swift */,
-				52F11D90293F9DF600DB0005 /* Reachability.swift */,
 				52F11D95293FFD3100DB0005 /* ErrorHandler.swift */,
 			);
 			path = Network;
@@ -609,7 +606,6 @@
 				52E35C7B2946659700319B74 /* MatchCard.swift in Sources */,
 				52F11D78293F7DFD00DB0005 /* HalfTime.swift in Sources */,
 				52E35C5E2943226E00319B74 /* Colors.swift in Sources */,
-				52F11D91293F9DF600DB0005 /* Reachability.swift in Sources */,
 				52F11D7C293F7DFD00DB0005 /* Penalties.swift in Sources */,
 				52E35C582943205300319B74 /* SwiftUIViews.swift in Sources */,
 				52E35C772946565200319B74 /* GroupElements.swift in Sources */,
